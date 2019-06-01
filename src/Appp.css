@@ -1,0 +1,51 @@
+.Appp {
+  text-align: center;
+}
+
+.Appp-logo {
+  animation: Appp-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.Appp-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Appp-link {
+  color: #61dafb;
+}
+
+.h-color{
+  color: #007bff;
+}
+.bordered{
+  border: 1px ridge;
+  position: relative;
+  overflow: hidden;
+}
+.container {
+  background: #f2f2f2;
+}
+
+.floating {
+  float:left;
+}
+.floating-margin {
+  float:left;
+  margin-left: 15px;
+}
+@keyframes Appp-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
